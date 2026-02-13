@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def main():
-    return "Welcome! to the my pytho flash ci cd setup"
+    return "Welcome! to My Python CI CD setup"
 
 @app.route('/how are you')
 def hello():
